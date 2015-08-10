@@ -1,0 +1,10 @@
+from time import sleep
+a = input('number 1: ')
+b = input('number 2: ')
+c = raw_input('what? ')
+if c == '+': print  (a+b)
+elif c == '/': print  (a/b)
+elif c == '*': print  (a*b)
+elif c == '-': print  (a-b)
+else: print	('ERROR!')
+sleep	(5)
